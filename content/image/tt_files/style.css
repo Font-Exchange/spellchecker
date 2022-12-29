@@ -1,0 +1,43 @@
+.carousel-caption{background:rgba(0, 0, 0, 0.5);margin:auto;padding:20px 20px 20px 20px;right:0px;left:0px}
+.fas{width:16px}
+.breadcrumb > li + li:before{content:">>";padding:0 5px}
+.breadcrumb{margin-bottom:10px;background-color:transparent;padding:5px 0;font-size:13px}
+h1{font-size:30px}
+h2{font-size:24px}
+h3{font-size:20px}
+h4{font-size:18px}
+h5{font-size:16px}
+h6{font-size:14px}
+.list-group-item{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+code{color:#c7254e;background-color:#f9f2f4;border-radius:4px;font-size:17px}
+pre {background-color:#f9f2f4;overflow:auto;border-radius:4px;padding:10px;font-size:17px}
+.OLDiv{max-width:350px;min-width:270px;height:325px;background-color:#ccc;background:url('//www.joydeepdeb.com/images/tshirt.png') top center no-repeat;color:#fff;text-align:center;font-family:'Lucida Console', Arial, Helvetica, sans-serif;font-size:16px;padding-top:75px;padding-left:100px;padding-right:100px}
+.cal-btn{width:70px;height:50px;border-radius:5px;font-size:24px;margin:5px}
+#cal_id{margin:5px;width:310px;text-align:right}
+.facebook{color:#4267B2}
+.twitter{color:#1A91DA}
+.linkedin{color:#0077B5}
+.youtube{color:#FF0000}
+.pinterest{color:#E60023}
+.instagram{color:#3f729b}
+.rss{color:#ee802f}
+.mshadow{box-shadow:0 1px 4px 0 rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 2px 10px -1px rgba(0,0,0,0.12)}
+.social-share-small a{background-color:#fff;float:left;color:#333;margin:0px 20px 10px 0px;border-radius:4px;text-decoration:none;box-shadow:1px 1px 5px #ccc;padding-right:6px}
+.social-share-small i{padding:7px 3px 7px 3px;border-radius:4px 0px 0px 4px;width:30px;text-align:center}
+.bg-facebook{background-color:#3b5998;color:#fff}
+.bg-twitter{background-color:#00acee;color:#fff}
+.bg-linkedin{background-color:#0e76a8;color:#fff}
+.bg-pinterest{background-color:#c8232c;color:#fff}
+.break{word-break:break-all}
+.blockquote{padding:15px 15px;font-size:18px;border-left:5px solid #ccc;background-color:#eee}
+::-moz-selection{color:#f00;background:#333}
+::selection{color:#f00;background:#333}
+#top-btn{position:fixed;right:20px;bottom:30px;z-index:69}
+html{scroll-behavior:smooth}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{box-shadow:inset 0 0 2px #999;border-radius:3px}
+::-webkit-scrollbar-thumb{background:#ccc;border-radius:5px}
+::-webkit-scrollbar-thumb:hover{background:#aaa}
+.skip-nav-link{position:absolute;width: 225px;transform:translateY(-230%)}
+.skip-nav-link:focus{transform:translateY(0)}
+@media (prefers-color-scheme:dark){body{background-color:#181818;color:#fff}.bg-light,.card{background-color:#303030!important;color:#fff}.card-body,.media{background-color:#383838!important;color:#fff}.form-control{background-color:#121212!important;color:#fff!important}.nav-link,a{color:#ccc!important}.nav-link:hover,a:hover{color:#eee!important;text-decoration:underline!important}.text-dark{color:#eee!important}.dropdown-item,.dropdown-menu,.list-group-item-action,hr{background-color:#383838!important;text-decoration:none!important}.dropdown-item:hover,.list-group-item-action:hover{background-color:#303030!important;text-decoration:none!important}.dropdown-item:hover{background-color:#4c4c4c!important}.border-left{border-left:1px solid #ccc!important}.list-group-item-primary,.list-group-item-success,.list-group-item-warning{color:#303030!important}.list-group-item-primary:hover,.list-group-item-success:hover,.list-group-item-warning:hover{color:#383838!important}img{opacity:.7;background-color:transparent}.blockquote{padding:15px 15px;font-size:18px;border-left:5px solid #303030!important;background-color:#383838!important}}

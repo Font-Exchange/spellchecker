@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Spell Checker Help</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script>
+function showResult(str) {
+  if (str.length==0) {
+    document.getElementById("livesearch").innerHTML="";
+    document.getElementById("livesearch").style.border="0px";
+    return;
+  }
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("livesearch").innerHTML=this.responseText;
+      document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+    }
+  }
+  xmlhttp.open("GET","https://expoodisha.com/Software/spellchecker/search/livesearch.php?q="+str,true);
+  xmlhttp.send();
+}
+</script>
+
+<script>
+
+// When the user scrolls down 20px from the top of the document, show the button
+
+window.onscroll = function() {scrollFunction()};
+
+
+
+function scrollFunction() {
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+        document.getElementById("myBtn").style.display = "block";
+
+    } else {
+
+        document.getElementById("myBtn").style.display = "none";
+
+    }
+
+}
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+
+function topFunction() {
+
+    document.body.scrollTop = 0;
+
+    document.documentElement.scrollTop = 0;
+
+}
+
+</script>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+
+<link rel="stylesheet" href="bootstrapc.css">
+<link rel="stylesheet" href="stylec.css">
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top mshadow py-0 mb-4">
+<div class="container">
+	<a class="navbar-brand pr-5" href="">
+	<img loading="lazy" src="../Odia%20Spell%20Checker_files/spell_logo.png" alt="" title="" width="267" height="50"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item pr-2">
+			<a class="nav-link text-dark" href="https://expoodisha.com/Software/spellchecker/"><i class="fas fa-home"></i> 
+			Home <span class="sr-only">(current)</span></a></li>
+			<li class="nav-item pr-2">
+			<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/dynamic.htm">
+			Dynamic Spell</a></li>
+			<li class="nav-item pr-2">
+			<a class="nav-link text-primary" href="https://expoodisha.com/Software/componets.htm">
+			Components</a></li>
+			<li class="nav-item dropdown pr-2">
+				<a class="nav-link text-primary" href="https://expoodisha.com/Software/comment.htm">
+				Comments</a> 
+				</li>
+			<li class="nav-item dropdown pr-2">
+				<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/content/contact.htm"><i class="fas fa-envelope"></i> 
+				Contact</a></li>
+			<li class="nav-item pr-2">
+			<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/content/help.htm">Help</a></li>
+			<li class="nav-item pr-2">
+			<a class="nav-link text-primary">
+			Search&gt;&gt;</a></li>
+		</ul>
+		<form class="form-inline my-4 my-lg-0" role="search" name="search" id="search" method="get" action="/search/">
+			<div class="input-group">
+				<input type="text" class="form-control" onkeyup="showResult(this.value)" name="T49" size="20">  
+			<div id="livesearch"></div>
+				
+				<div class="input-group-append">&nbsp;</div>
+			</div>
+		</form>
+	</div>
+</div>
+</nav>
+<div class="container" style="height: auto !important;">
+	<div class="row" style="height: auto !important;">
+		<div class="col-md-8">
+			<h1><font size="5">Spell Checker Help</font></h1>
+			<h2><span class="text-success"><font size="4">Spell Checker</font></span><font size="4"> . 
+			<span class="text-danger">Language Pack</span> . </font>
+			<span class="text-primary"><font size="4">Add-on</font></span></h2>
+			<div class="card-deck mt-4 mb-4">
+				<div class="card">
+					<a href="adding_inner.htm">
+					<img loading="lazy" class="img-fluid card-img-top border-bottom" src="image/dictionary.jpg" title="Text-to-Speech (TTS)" alt="dictionary" width="1200" height="630"></a>
+					<div class="card-body bg-light">
+						<h3 class="card-title"><a href="adding_inner.htm">Adding 
+						Dictionary and Language Pack</a></h3>
+						<span class="MUxGbd wuQ4Ob WZ8Tjf"></span>You can add
+						<em>dictionaries </em>&nbsp;and language packs to spellchecker quickly and easily check 
+						spellings in Odia and other language correspondence​.<!-- small>- Sunday, April 11, 2021</small --><!-- small>- Friday, November 05, 2021</small --></div>
+				</div>
+				<div class="card">
+					<a href="dynamic_inner.htm">
+					<img loading="lazy" class="img-fluid card-img-top border-bottom" src="image/dynamic.jpg" title="What is Attribution Modeling" alt="dynamic" width="1200" height="630"></a>
+					<div class="card-body bg-light">
+						<h3 class="card-title"><a href="dynamic_inner.htm">Dynamic 
+						Spell Checker</a></h3>
+						<p>
+						<span class="ILfuVd" lang="en"><span class="hgKElc">
+						Dynamic Spelling will add the red squiggly line under 
+						any words that it believes are misspelt. It will add a 
+						green squiggly line under words where it believes there 
+						is a grammar problem.</span></span></p>
+						<!-- small>- Sunday, April 11, 2021</small -->
+					</div>
+				</div>
+			</div>
+			
+			<div class="card-deck mt-4 mb-4">
+				<div class="card">
+					<a href="statiic_inner.htm">
+					<img loading="lazy" class="img-fluid card-img-top border-bottom" src="image/static.jpg" title="Which words not correction" alt="static" width="1200" height="630"></a>
+					<div class="card-body bg-light">
+						<h3 class="card-title">
+						<a href="statiic_inner.htm">Static Spell Checker</a></h3>
+						<span class="hgKElc">Static Spell Checker</span> r<font face="Verdana">emove 
+						extra space and Paragraph lines to find appropriate word 
+						from database. Also </font>finding word and replacing it 
+						with an alternative word.
+					</div>
+				</div>
+				<div class="card">
+					<a href="quicktips_inner.htm">
+					<img loading="lazy" class="img-fluid card-img-top border-bottom" src="image/quick%20tips.jpg" title="What is Attribution Modeling" alt="quic tips" width="1200" height="630"></a>
+					<div class="card-body bg-light">
+						<h3 class="card-title"><a href="quicktips_inner.htm">
+						Quick tips 
+						</a></h3>Spell check is a powerful and flexible feature 
+						that helps you reduce the number of typos and 
+						grammatical errors. It won’t catch everything — you 
+						still have to proof your work. But spell check will 
+						reduce the time and effort you put into that process. 
+						Now, most everyone knows how to use spell check, but 
+						these 7 tips will help you use this feature more 
+						efficiently.</div>
+				</div>
+			</div>
+<div class="card my-4">
+	<div class="card-header"><b>Offensive Word Detector</b></div>
+	<div class="media p-3">
+		<div class="media-body">
+			Spell Checker quickly detect for <em>offensive words</em> and abuse? 
+			Our profanity <em>detector will</em> highlight possible <em>swear 
+			words</em> for you with a&nbsp; black colour. We can describe 
+			Offensive Language Detection as identifying abusive behaviors, such 
+			as hate speech, offensive language, sexism, and racism, in any 
+			text-related conversation on digital platforms.
+		</div>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4" style="height: auto !important;">
+<div class="mb-4">
+	<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-9894252474011491" data-ad-slot="3888288760" data-ad-format="auto" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" style="border: medium none; height: 280px; width: 350px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="border: medium none; height: 280px; width: 350px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;">
+	<iframe id="aswift_1" name="aswift_1" style="left:1310;position:absolute;top:406;border:0 none;width:350px;height:280px" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" marginwidth="4" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="image/Spell%20Checker%20Online.mp4" data-google-container-id="a!2" data-google-query-id="CKCgypDus_kCFbWc2AUd0N0Lhw" data-load-complete="true" frameborder="0"></iframe></ins></ins></ins>
+	
+</div>
+<div class="list-group mb-4">
+	<b>
+	<a class="list-group-item text-decoration-none list-group-item-primary">Font Converter</a></b><div class="card-body bg-light">
+		<ul>
+			<li>
+			<a href="https://expoodisha.com/Software/FExchange/FExchange.htm">Akruti &gt; Unicode</a></li>
+			<li>
+			<a href="https://expoodisha.com/Software/FExchange/Shreelipi.htm">Shreelipi &gt; Unicode</a></li>
+			<li><a href="https://expoodisha.com/Software/FExchange/Gist.htm">Gist &gt; Unicode</a></li>
+			<li>shruti &gt; Unicode</li>
+			<li>Aprant &gt; Unicode</li>
+		</ul>
+	</div>
+	<p>&nbsp;<b><a class="list-group-item text-decoration-none list-group-item-success">Non-Unicode Converter</a></b></p>
+	<div class="card-body bg-light">
+		<ul>
+			<li><a href="https://expoodisha.com/Software/unitoak/">Unicode &gt; Akruti</a></li>
+		</ul>
+	</div>
+	</div>
+<div class="card mb-4">
+	<div class="card-header bg-warning"><i class="fas fa-envelope"></i> <b>Spell 
+		Checker (Home)</b></div>
+	<div class="card-body bg-light">
+		<ul>
+			<li><a href="https://expoodisha.com/Software/spellchecker/">Odia</a></li>
+			<li>
+			<a href="https://www.expoodisha.com/Software/spellchecker%20-%20Hindi/">Hindi</a></li>
+		</ul>
+	</div>
+</div>
+<div class="card mb-4">
+	<div class="card-header bg-warning" style="background-color: #C0C0C0 !important"><i class="fas fa-envelope"></i> <b>Spell 
+		Checker (Add-on)</b></div>
+	<div class="card-body bg-light">
+		<p align="center"><span style="font-size: 13pt">Installing a dictionary
+		<b><a href="Spell_add-on_inner.htm">
+		<font color="#FF0000">add-on</font></a></b> will add a new language 
+		option to your spell-checker, which checks your spelling as you type.</span></div>
+</div>
+<div class="card mb-4">
+	<div class="card-header bg-warning" style="background-color: #FF9966 !important"><i class="fas fa-envelope"></i> <b>Spell 
+		Checker Upload data graph</b></div>
+	<div class="card-body bg-light">
+		<a href="upload_data_inner.htm">
+		<img border="0" src="image/spell%20datagraph.jpg" width="292" height="158"></a></div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	-<footer class="bg-light border-top p-3"><div class="row">
+		<div class="col-sm-4 small pb-2">
+			<p style="text-align: center">expoodisha.com 2023. All Rights Reserved.</div>
+	</div>
+</div>
+</footer>
+
+
+</body>
+<p>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block; float:right">Top</button>
+
+</p>
+
+</html>
