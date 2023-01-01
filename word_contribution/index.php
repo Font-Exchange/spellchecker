@@ -18,7 +18,7 @@ function showResult(str) {
       document.getElementById("livesearch").style.border="1px solid #A5ACB2";
     }
   }
-  xmlhttp.open("GET","https://expoodisha.com/Software/spellchecker/search/livesearch.php?q="+str,true);
+  xmlhttp.open("GET","https://font-exchange.github.io/spellchecker/search/livesearch.php?q="+str,true);
   xmlhttp.send();
 }
 </script>
@@ -44,23 +44,23 @@ function showResult(str) {
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item pr-2">
-			<a class="nav-link text-dark" href="https://expoodisha.com/Software/spellchecker/"><i class="fas fa-home"></i> 
+			<a class="nav-link text-dark" href="https://font-exchange.github.io/spellchecker/"><i class="fas fa-home"></i> 
 			Home <span class="sr-only">(current)</span></a></li>
 			<li class="nav-item pr-2">
-			<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/dynamic.htm">
+			<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/dynamic.htm">
 			Dynamic Spell</a></li>
 			<li class="nav-item pr-2">
-			<a class="nav-link text-primary" href="https://expoodisha.com/Software/componets.htm">
+			<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/componets.htm">
 			Components</a></li>
 			<li class="nav-item dropdown pr-2">
-				<a class="nav-link text-primary" href="https://expoodisha.com/Software/comment.htm">
+				<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/comment.htm">
 				Comments</a> 
 				</li>
 			<li class="nav-item dropdown pr-2">
-				<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/content/contact.htm"><i class="fas fa-envelope"></i> 
+				<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/content/contact.htm"><i class="fas fa-envelope"></i> 
 				Contact</a></li>
 			<li class="nav-item pr-2">
-			<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/content/help.htm">Help</a></li>
+			<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/content/help.htm">Help</a></li>
 			<li class="nav-item pr-2">
 			<a class="nav-link text-primary">
 			Search&gt;&gt;</a></li>
@@ -93,7 +93,7 @@ function showResult(str) {
   </form>
 <p>&nbsp;</div>
 			</div>
-			<a href="http://expoodisha.com/Software/spellchecker/word_contribution/open.php">.</a>
+			<a href="https://font-exchange.github.io/spellchecker/word_contribution/open.php">.</a>
 		</div>
 		<div class="col-md-4" style="height: auto !important;">
 <div class="mb-4">
