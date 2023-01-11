@@ -463,7 +463,7 @@ textarea.val(textarea.val().replace(/ଢୋ/g,"ଢୋ"));
 textarea.val(textarea.val().replace(/ର୍ଯ୍ୟ‌/g,"ର୍ଯ୍ୟ"));
 textarea.val(textarea.val().replace(/ଫୋ/g,"ଫୋ"));
 textarea.val(textarea.val().replace(/ଭୌ/g,"ଭୌ"));
-
+textarea.val(textarea.val().replace(/ବର୍ଷୀଆନ/g,"ବର୍ଷୀୟାନ"));
 
 
 
