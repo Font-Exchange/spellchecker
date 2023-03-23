@@ -399,6 +399,8 @@ textarea.val(textarea.val().replace(/ଅସ୍ତ୍ରପଚାର/g,"ଅସ୍
 textarea.val(textarea.val().replace(/ଅସ୍ତ୍ରପ୍ରଚାର/g,"ଅସ୍ତ୍ରୋପଚାର"))
 textarea.val(textarea.val().replace(/ସିଦ୍ଦାନ୍ତ/g,"ସିଦ୍ଧାନ୍ତ"))
 textarea.val(textarea.val().replace(/ଆର୍ଶୀବାଦ/g,"ଆଶୀର୍ବାଦ"))
+textarea.val(textarea.val().replace(/ବର୍ଷୀଆନ/g,"ବର୍ଷୀୟାନ"));
+
 
 
 
@@ -422,7 +424,7 @@ textarea.val(textarea.val().replace(/ତ୍‌୍‌/g,"ତ୍‌"));
 textarea.val(textarea.val().replace(/ଉଦବୁଧ/g,"ଉଦ୍‌ବୁଦ୍ଧ"));
 textarea.val(textarea.val().replace(/ପାର୍କ/g," ପାର୍କ"));
 
-
+textarea.val(textarea.val().replace(/କୈ/g,"କୈ"));
 textarea.val(textarea.val().replace(/ତ‌ା/g,"ତା"));
 textarea.val(textarea.val().replace(/ଲୋ/g,"ଲୋ"));
 textarea.val(textarea.val().replace(/ଗୋ/g,"ଗୋ"));
@@ -463,7 +465,12 @@ textarea.val(textarea.val().replace(/ଢୋ/g,"ଢୋ"));
 textarea.val(textarea.val().replace(/ର୍ଯ୍ୟ‌/g,"ର୍ଯ୍ୟ"));
 textarea.val(textarea.val().replace(/ଫୋ/g,"ଫୋ"));
 textarea.val(textarea.val().replace(/ଭୌ/g,"ଭୌ"));
-textarea.val(textarea.val().replace(/ବର୍ଷୀଆନ/g,"ବର୍ଷୀୟାନ"));
+textarea.val(textarea.val().replace(/ଛେ/g,"ଛେ"));
+textarea.val(textarea.val().replace(/ଛୋ/g,"ଛୋ"));
+textarea.val(textarea.val().replace(/ଯୋ/g,"ଯୋ"));
+
+
+
 
 
 
@@ -508,6 +515,14 @@ textarea.val(textarea.val().replace(/​‌େ​‌ଲ/g,"ଲେ"));
 textarea.val(textarea.val().replace(/​‌ଗଁା/g,"ଗାଁ"));
 textarea.val(textarea.val().replace(/ିି/g,"ି"));
 textarea.val(textarea.val().replace(/େ‌/g,""));
+textarea.val(textarea.val().replace(/ଣ୍ଡୋ/g,"ଣ୍ଡୋ"));
+textarea.val(textarea.val().replace(/ର୍ତ୍ତୋ/g,"ର୍ତ୍ତୋ"));
+textarea.val(textarea.val().replace(/ଡ଼/g,"ଡ଼"));
+textarea.val(textarea.val().replace(/କୈା/g,"​‌କୌ"));
+textarea.val(textarea.val().replace(/ମୈା/g,"ମୌ"));
+textarea.val(textarea.val().replace(/କୋୖ/g,"​‌କୌ"));
+textarea.val(textarea.val().replace(/ମୋୖ/g,"ମୌ"));
+
 
 
 
