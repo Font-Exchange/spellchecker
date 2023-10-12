@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>Spell Checker Help</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script>
+<html class="wf-opensans-n4-active wf-opensanscondensed-n7-active wf-active" lang="en"><head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="description" content=" Copy-paste and click check spell button. Optional words are provided for you to correct.">
+
+<script src="dynamic_files/webfont.js" type="text/javascript" async=""></script><script>
 function showResult(str) {
   if (str.length==0) {
     document.getElementById("livesearch").innerHTML="";
@@ -24,43 +25,130 @@ function showResult(str) {
 </script>
 
 <style>
+
+textarea {
+
+	width: 557px;
+
+	height: 1135px;
+
+	margin-left: 0.4em;
+
+	text-align: justify;
+
+}
+
+</style>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+:hover#myBtn {
+  background-color: #555;
+}
+
 .button {
 
 }
 
-.button1 {background-color: #4CAF50;} /* Green */
-</style>
+.button1 {background-color: #4CAF50;}</style>
 
-<link rel="stylesheet" href="bootstrapc.css">
-<link rel="stylesheet" href="stylec.css">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>Odia Spell Checker</title>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="expoodisha">
+
+<meta name="description" content="Odia Spell Checker Dynamic">
+
+
+<script src="dynamic_files/jquery.js"></script>
+
+<script src="dynamic_files/rlb.js"></script>
+
+<script src="dynamic_files/jquery_002.js"></script>
+
+<script language="javascript" type="text/javascript" src="dynamic_files/downloadFile_002.js"></script>
+<link rel="stylesheet" href="dynamic_files/base.css">
+<script language="javascript" type="text/javascript" src="dynamic_files/uninon.js"></script>
+
+
+<script language="javascript" type="text/javascript">
+
+var wordList = [];
+
+</script>
+
+<script language="javascript" type="text/javascript" src="dynamic_files/wordConvertion.js"></script>
+
+<script src="dynamic_files/jquery.min.js"></script>
+
+<script type="text/javascript" src="dynamic_files/jquery_auto.js"></script>
+
+
+
+<!--[if lt IE 9]>
+
+&nbsp;<!--Custom Sccript --><script src="dynamic_files/res.js"></script><link rel="stylesheet" href="dynamic_files/css.css" media="all">
+
+</head>
+
+<body onkeyup="onKeyUpBody(event)" onkeydown="addWordFromKeyboard(event)" onload="initApp()">
 
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top mshadow py-0 mb-4">
 <div class="container">
 	<a class="navbar-brand pr-5" href="">
-	<img loading="lazy" src="../Odia%20Spell%20Checker_files/spell_logo.png" alt="" title="" width="267" height="50"></a>
+	<img loading="lazy" src="dynamic_files/spell_logo.png" alt="" title="" width="267" height="50"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item pr-2">
-			<a class="nav-link text-dark" href="https://expoodisha.com/Software/spellchecker/"><i class="fas fa-home"></i> 
+			<a class="nav-link text-dark" href="https://font-exchange.github.io/spellchecker/"><i class="fas fa-home"></i> 
 			Home <span class="sr-only">(current)</span></a></li>
 			<li class="nav-item pr-2">
-			<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/dynamic.htm">
+			<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/dynamic.htm">
 			Dynamic Spell</a></li>
 			<li class="nav-item pr-2">
-			<a class="nav-link text-primary" href="https://expoodisha.com/Software/componets.htm">
+			<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/componets.htm">
 			Components</a></li>
 			<li class="nav-item dropdown pr-2">
-				<a class="nav-link text-primary" href="https://expoodisha.com/Software/comment.htm">
+				<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/comment.htm">
 				Comments</a> 
 				</li>
 			<li class="nav-item dropdown pr-2">
-				<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/content/contact.htm"><i class="fas fa-envelope"></i> 
+				<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/contact/contactform.php"><i class="fas fa-envelope"></i> 
 				Contact</a></li>
 			<li class="nav-item pr-2">
-			<a class="nav-link text-primary" href="https://expoodisha.com/Software/spellchecker/content/help.htm">Help</a></li>
+			<a class="nav-link text-primary" href="https://font-exchange.github.io/spellchecker/content/help.htm">
+			Help</a></li>
 			<li class="nav-item pr-2">
 			<a class="nav-link text-primary">
 			Search&gt;&gt;</a></li>
@@ -76,8 +164,13 @@ function showResult(str) {
 	</div>
 </div>
 </nav>
-<div class="container" style="height: auto !important;">
-	<div class="row" style="height: auto !important;">
+
+<div class="container">
+<p align="center"><font size="3">Installing a dictionary <b>
+<a href="https://font-exchange.github.io/spellchecker/content/Spell_add-on_inner.htm"><font color="#FF0000">
+add-on</font></a></b> will add a new language option to your spell-checker, 
+which checks your spelling as you type.</font></p>&nbsp;<div class="row">
+
 		<div class="col-sm-8">
 			<h1><font size="4" color="#6699FF">Installing Spell Checker (Add-on)</font></h1>
 <div class="card mb-4">
@@ -255,9 +348,8 @@ function showResult(str) {
 	</table>
 		</div>
 			</div>
-			<font color="#FFFFFF">
-			<input type="button" value="Go back to Dynamic Spell page" onclick="history.go(-1)"></font>
-		</div>
+			&nbsp;</div>
+
 		<div class="col-md-4" style="height: auto !important;">
 <div class="mb-4">
 	&nbsp;</div>
@@ -266,10 +358,10 @@ function showResult(str) {
 	<a class="list-group-item text-decoration-none list-group-item-primary">Font Converter</a></b><div class="card-body bg-light">
 		<ul>
 			<li>
-			<a href="https://expoodisha.com/Software/FExchange/FExchange.htm">Akruti &gt; Unicode</a></li>
+			<a href="https://font-exchange.github.io/Odia-Unicode/">Akruti &gt; Unicode</a></li>
 			<li>
-			<a href="https://expoodisha.com/Software/FExchange/Shreelipi.htm">Shreelipi &gt; Unicode</a></li>
-			<li><a href="https://expoodisha.com/Software/FExchange/Gist.htm">Gist &gt; Unicode</a></li>
+			<a href="https://font-exchange.github.io/Odia-Unicode/Shreelipi.htm">Shreelipi &gt; Unicode</a></li>
+			<li><a href="https://font-exchange.github.io/Odia-Unicode/Gist.htm">Gist &gt; Unicode</a></li>
 			<li>shruti &gt; Unicode</li>
 			<li>Aprant &gt; Unicode</li>
 		</ul>
@@ -277,7 +369,7 @@ function showResult(str) {
 	<p>&nbsp;<b><a class="list-group-item text-decoration-none list-group-item-success">Non-Unicode Converter</a></b></p>
 	<div class="card-body bg-light">
 		<ul>
-			<li><a href="https://expoodisha.com/Software/unitoak/">Unicode &gt; Akruti</a></li>
+			<li><a href="https://font-exchange.github.io/Odia-Unicode/unitoak/">Unicode &gt; Akruti</a></li>
 		</ul>
 	</div>
 	</div>
@@ -286,9 +378,9 @@ function showResult(str) {
 		Checker (Home)</b></div>
 	<div class="card-body bg-light">
 		<ul>
-			<li><a href="https://expoodisha.com/Software/spellchecker/">Odia</a></li>
+			<li><a href="https://font-exchange.github.io/spellchecker/">Odia</a></li>
 			<li>
-			<a href="https://www.expoodisha.com/Software/spellchecker%20-%20Hindi/">Hindi</a></li>
+			<a href="https://font-exchange.github.io/spellchecker-hindi/">Hindi</a></li>
 		</ul>
 	</div>
 </div>
@@ -297,20 +389,279 @@ function showResult(str) {
 		Checker (Add-on)</b></div>
 	<div class="card-body bg-light">
 		<p align="center"><span style="font-size: 13pt">Installing a dictionary
-		<b><a href="Spell_add-on_inner.htm">
+		<b>
+		<a href="https://font-exchange.github.io/spellchecker/content/Spell_add-on_inner.htm">
 		<font color="#FF0000">add-on</font></a></b> will add a new language 
-		option to your spell-checker, which checks your spelling as you type.</span></div>
+		option to your spell-checker, which checks your spelling as you type.</span></p></div>
 </div>
 		</div>
-	</div>
+
+  </div>
+
 </div>
+		&nbsp;&nbsp;<script>
+
+;(function(){
+
+	var wordcounter = document.getElementById('uInput')
+
+	var counteroutput = document.getElementById('counteroutput')
+
+	var counteroutputFoot = document.getElementById('counteroutput-foot')
+
+	var words, chars
+
+
+
+	function countemwords(){
+
+		words = (wordcounter.value == '')? 0 : wordcounter.value.split(' ').length
+
+		chars = wordcounter.value.length
+
+		counteroutput.innerHTML = 'Words: <span class="outputval">' + words + '</span> Chars: <span class="outputval">' + chars + '</span>'
+
+		counteroutputFoot.innerHTML = '<b>Words: </b>' + words + '<b>Chars: </b>' + chars
+
+	}
+
+
+
+	wordcounter.addEventListener('input', function(e){
+
+		countemwords()
+
+	}, false)
+
+
+
+
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+		countemwords()
+
+  }, false)
+
+
+
+  window.addEventListener("load", function(event) {
+
+		countemwords()
+
+  }, false)
+
+	
+
+})()
+
+
+
+</script> 
+
+<script src="dynamic_files/jquery-2.js"></script> 
+
+<script src="dynamic_files/jquery_003.js"></script> 
+
+<script>$(function() {
+
+  var $context = $(".context");
+
+  var $form = $("form");
+
+  var $button = $form.find("button[name='perform']");
+
+  var $input = $form.find("input[name='keyword']");
+
+
+
+  $button.on("click.perform", function() {
+
+
+
+    // Determine search term
+
+    var searchTerm = $input.val();
+
+
+
+    // Determine options
+
+    var options = {};
+
+    var values = $form.serializeArray();
+
+    /* Because serializeArray() ignores unset checkboxes */
+
+    values = values.concat(
+
+      $form.find("input[type='checkbox']:not(:checked)").map(
+
+        function() {
+
+          return {
+
+            "name": this.name,
+
+            "value": "false"
+
+          }
+
+        }).get()
+
+    );
+
+    $.each(values, function(i, opt){
+
+      var key = opt.name;
+
+      var val = opt.value;
+
+      if(key === "keyword" || !val){
+
+        return;
+
+      }
+
+      if(val === "false"){
+
+        val = false;
+
+      } else if(val === "true"){
+
+        val = true;
+
+      }
+
+      options[key] = val;
+
+    });
+
+
+
+    // Remove old highlights and highlight
+
+    // new search term afterwards
+
+    $context.unmark();
+
+    $context.mark(searchTerm, options);
+
+	document.getElementById('editor').style.display='inline-block';
+
+  });
+
+  $button.trigger("click.perform");
+
+});
+
+//# sourceURL=pen.js
+
+</script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Top</button>
+
+<script>
+
+// When the user scrolls down 20px from the top of the document, show the button
+
+window.onscroll = function() {scrollFunction()};
+
+
+
+function scrollFunction() {
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+        document.getElementById("myBtn").style.display = "block";
+
+    } else {
+
+        document.getElementById("myBtn").style.display = "none";
+
+    }
+
+}
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+
+function topFunction() {
+
+    document.body.scrollTop = 0;
+
+    document.documentElement.scrollTop = 0;
+
+}
+
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+    $(window).load(function(){
+
+      
+
+$("#copy").click(function() {
+
+    $("#uInput").val($("#editor").text());
+
+});
+
+
+
+    });
+
+
+
+</script> 
+
+
+<script type="text/javascript">
+
+function clearFields() {
+
+    document.getElementById("findbox1").value=""
+
+    document.getElementById("replacebox1").value=""
+
+}
+
+</script>
+<script>
+$('#spl').click(function(){
+$("#clear").click();
+})
+</script>
+
+
+<script>
+$('#fnrbtn').click(function(){
+$("#odsi").click();
+})
+</script>
+
+
+
+
+
 <div class="container">
-	-<footer class="bg-light border-top p-3"><div class="row">
+	<footer class="bg-light border-top p-3"><div class="row">
 		<div class="col-sm-4 small pb-2">
-			<p style="text-align: center">expoodisha.com 2023. All Rights Reserved.</div>
+			<p style="text-align: center">expoodisha.com 2023. All Rights Reserved.</p></div>
 	</div>
-</div>
-</footer>
+</footer></div>
+
+
+
+
+
+
 
 
 </body></html>
