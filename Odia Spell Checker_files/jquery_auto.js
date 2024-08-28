@@ -468,6 +468,7 @@ textarea.val(textarea.val().replace(/ଭୌ/g,"ଭୌ"));
 textarea.val(textarea.val().replace(/ଛେ/g,"ଛେ"));
 textarea.val(textarea.val().replace(/ଛୋ/g,"ଛୋ"));
 textarea.val(textarea.val().replace(/ଯୋ/g,"ଯୋ"));
+textarea.val(textarea.val().replace(/ଯୋଗୁ/g,"ଯୋଗୁଁ"));
 
 
 
