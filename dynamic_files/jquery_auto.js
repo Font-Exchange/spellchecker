@@ -401,7 +401,7 @@ textarea.val(textarea.val().replace(/ଭୋ/g,"ଭୋ"));
 textarea.val(textarea.val().replace(/ପୋ/g,"ପୋ"));
 textarea.val(textarea.val().replace(/ଜୋ/g,"ଜୋ"));
 textarea.val(textarea.val().replace(/ପୌ/g,"ପୌ"));
-
+textarea.val(textarea.val().replace(/ଯୋଗୁ/g,"ଯୋଗୁଁ"));
 
 textarea.val(textarea.val().replace(/​‌େ​‌କ/g,"କେ"));
 textarea.val(textarea.val().replace(/​‌େ​‌ଖ/g,"ଖେ"));
