@@ -402,6 +402,7 @@ textarea.val(textarea.val().replace(/ବର୍ଷୀଆନ/g,"ବର୍ଷୀୟ
 textarea.val(textarea.val().replace(/ବିଶୋଦଗାର/g,"ବିଶୋଦ୍‌ଗାର"));
 textarea.val(textarea.val().replace(/ପ୍ପୋ/g,"ପ୍ପୋ"));
 textarea.val(textarea.val().replace(/ଯୋଗୁ/g,"ଯୋଗୁଁ"));
+textarea.val(textarea.val().replace(/ବିଡ଼ିଓ/g,"ବିଡିଓ"));
 
 
 
