@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="dictionary_files/resp.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="dictionary_files/jquery-ui.css" rel="stylesheet">
+      <script src="dictionary_files/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="dictionary_files/jquery-ui.js"></script>
+<title>Odia Dictionary</title>
+
+      <!-- Javascript -->
+      <script charset="UTF-8">
+         $(function() {
+                $( "#autocomplete-1" ).autocomplete({
+                   source: '/cgi-bin/app/praharaj/autocomplete.py',
+                   minLength: 1,
+                   minLength: 1
+                });
+         });
+      </script>
+<style>
+   .ui-widget {
+        font-family: "arial";
+        font-weight: 400;
+        font-size: 15px;
+   }
+
+   .ui-widget input {
+        font-family: "arial";
+        font-weight: 400;
+        font-size: 15px;
+
+   }
+   .ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+    background: #91ACB7 !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    }
+</style>
+</head>
+
+<body bgcolor="white" link="navy" text="black" vlink="green">
+
+<h2 align="center"><font face="Comic Sans MS" color="#008000">Odia Dictionary</font></h2>
+<form action="https://dsal.uchicago.edu/cgi-bin/app/praharaj_query.py?">
+
+<div id="responsive_search">
+    <div id="responsive_search_tr">
+<!-- SEARCH BOX BELOW -->
+        <div id="responsive_search_td">
+        <div class="ui-widget">
+        <label for="autocomplete-1">Look up a word:</label>&nbsp;&nbsp;&nbsp;<input id="autocomplete-1" name="qs" size="20" class="ui-autocomplete-input" autocomplete="on"> 
+		&nbsp;&nbsp;</div></div>
+    </div>
+</div>
+
+<div id="responsive_search_buttons">
+    <div id="responsive_search_buttons_tr">
+        <div id="responsive_search_buttons_td">
+        <input type="submit" value="Search">&nbsp;&nbsp;&nbsp; <input type="reset" value="Clear Entries">
+        </div>
+    </div>
+</div>
+
+<!-- THE HEADWORD SEARCH FORM BELOW -->
+
+<hr align="center">
+<div class="responsive_search_options">
+    <div class="responsive_search_options_tr">
+        <div class="search_options_td">Search options: &nbsp;&nbsp;<input type="checkbox" name="searchhws" id="searchhws" value="yes"><label for="searchhws">Search 
+			entry words only (not definitions)</label></div>
+    </div>
+</div>
+<div class="responsive_search_options">
+    <div class="responsive_search_options_tr">
+        <div class="search_options_td">
+			<input type="radio" name="matchtype" value="default" id="beginning_with" checked=""><label for="beginning_with">Words 
+			beginning with &nbsp;(Example: incand)</label></div>
+        <div class="search_options_td"><input type="radio" name="matchtype" value="exact" id="exact_matches"><label for="exact_matches">Exact 
+			match only &nbsp;(Example: incandescent)</label></div>
+    </div>
+    <div class="responsive_search_options_tr">
+        <div class="search_options_td"><input type="radio" name="matchtype" value="endingwith" id="endingwith"><label for="endingwith">Words 
+			ending with &nbsp;(Example: scent)</label></div>
+        <div class="search_options_td"><input type="radio" name="matchtype" value="containing" id="containing"><label for="containing">Words 
+			containing &nbsp;(Example: candesce)</label></div>
+    </div>
+</div>
+</form>
+<hr align="center">
+
+<p>&nbsp;</p>
+
+</body></html>
