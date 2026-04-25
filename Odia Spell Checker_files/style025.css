@@ -818,7 +818,7 @@ body{
 .addToListOption
 {
 	height:20px;
-	padding-left:10px;
+	padding-left:20px;
 	font-size:12px;
 	font-family:DataSoft_Uniweb;
 	color:#777;
@@ -840,7 +840,7 @@ body{
 	/*background-color:#FF9;*/
 	color:#F00;
 	text-decoration:none;
-	font-weight:bold;
+	font-weight:light;
 	font-family: DataSoft_Uniweb;
 }
 .wordListItem{
